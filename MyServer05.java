@@ -6,6 +6,7 @@ import java.io.*;
  class MyServer05{
  	public static void main(String[] args) {
  		Date date = new Date();
+ 		System.out.println(date.toString());
  		byte[] buff = new byte[1024];
  		ServerSocket servsock = null;
  		Socket sock;
